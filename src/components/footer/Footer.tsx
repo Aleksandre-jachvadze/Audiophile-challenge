@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import CategoryLinks from "../header/CategoryLinks";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-zinc-950 text-center text-sm">
       <div className="max-w-[1110px] flex flex-col gap-8 mx-auto relative max-lg:px-6 py-8 md:gap-y-4 md:items-start">
