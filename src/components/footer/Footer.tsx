@@ -29,15 +29,8 @@ export default function Footer() {
                 devoted to helping you get the most out of personal audio. Come
                 and visit our demo facility - we’re open 7 days a week.
               </p>
-              <br />
-              <span className="text-zinc-500 font-semibold mt-4 md:mt-10 md:text-left max-lg:hidden">
-                Copyright {currentYear}. All Rights Reserved
-              </span>
             </div>
             <div className="flex flex-col md:flex-row items-center md:justify-between md:items-end lg:items-center">
-              <span className="text-zinc-500 font-semibold mt-4 md:mt-10 md:text-left lg:hidden">
-                Copyright {currentYear}. All Rights Reserved
-              </span>
               <div className="flex items-center gap-4 mt-6 lg:mt-0">
                 <FacebookLogo className="cursor-pointer fill-white hover:fill-custom-orange" />
                 <TwitterLogo className="cursor-pointer fill-white hover:fill-custom-orange" />
@@ -50,3 +43,4 @@ export default function Footer() {
     </footer>
   );
 }
+
